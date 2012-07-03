@@ -1,0 +1,29 @@
+AC_Taktika Design:
+	services page
+	service page
+	contact
+	vacances
+
+AC_Taktika layout:
+	make header, footer and content block
+	make main page content
+	make other pages
+	make @media query layout
+
+AC_BS_Partia: app wireframe and content
+	what color client whant?
+	iPhone3 compatibility?
+	what color client whant?
+	iPhone3 compatibility?
+	Define Common Used Elements
+	Define interactions
+
+Git hub
+	git pull 
+			
+	git add .
+	
+	git commit -am "my comment"
+	
+	git push 
+		send something on server	
