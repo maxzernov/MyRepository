@@ -1,0 +1,59 @@
+.carousel-container {
+	width: 100%;
+	overflow: visible;
+}
+
+#icarousel {
+	width: 490px;
+	height: 400px;
+	position: relative;
+	margin: 20px auto 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+}
+
+#icarousel div.slide {
+	border-radius: 4px;
+	border:none;
+	width: 480px;
+	height: 360px;
+}
+
+/* The Navigation buttons in the Slider */
+a.iCarouselNav {
+	display: block;
+	position: absolute;
+	top: 166px;
+	width: 23px;
+	height: 43px;
+	background: url('../layout/gallery_arrow.png') no-repeat;
+	z-index: 1000;
+	text-indent: -9999px;
+opacity:.75;
+
+}
+
+a#iCarouselPrev {
+	left:-150px;
+	background-position: left top;
+
+
+}
+
+
+a#iCarouselNext {
+	right: -150px;
+	background-position: right top;
+}
+
+a#iCarouselPrev:hover, a#iCarouselNext:hover {
+	opacity:1;
+}
