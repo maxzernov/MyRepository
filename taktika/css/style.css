@@ -220,9 +220,7 @@ padding-top:28px;
 padding-bottom:46px;
 margin:0 auto;
 position:relative; 
-min-height:100%;
-height:auto !important;
-height:100%;
+min-height:670px;
 }
 
 .mainHeading{
@@ -240,10 +238,12 @@ text-shadow:0px 1px 0px white;
 
 .links{
 width:100%;
-
+display: inline-block;
 }
 
+
 .links .links-item{
+float:left;
 display:inline-block;
 padding-left:7.3%;
 background:url('../layout/vdivider.png') repeat-y 13.1999%;
